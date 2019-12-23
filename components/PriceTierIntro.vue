@@ -63,8 +63,6 @@ export default {
 </script>
 
 <style scoped>
-  @import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
-
   .logo {
     font-size: 2.4rem;
     font-family: 'Architects Daughter', sans-serif;
