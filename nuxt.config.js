@@ -15,6 +15,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/trello_icon.png' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap' },
     ],
   },
   /*
