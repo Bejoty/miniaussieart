@@ -2,7 +2,6 @@
   <div class="price-tier-list">
     <v-dialog
       v-model="dialog"
-      v-scroll="onScroll"
       fullscreen
       transition="fade-transition"
     >
@@ -28,7 +27,7 @@
 
     <v-container>
       <v-row
-        class="text-center white--text my-6"
+        class="text-center white--text"
       >
         <v-col
           cols="12"
@@ -114,9 +113,6 @@ export default {
     openDialog(example) {
       this.dialogSrc = example.src;
       this.dialog = true;
-    },
-    onScroll(e) {
-      e.preventDefault();
     },
   },
 };

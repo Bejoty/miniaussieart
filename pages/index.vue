@@ -10,7 +10,6 @@ import PriceTierIntro from '~/components/PriceTierIntro.vue';
 import PriceTierList from '~/components/PriceTierList.vue';
 
 export default {
-  name: 'Prices',
   components: {
     PriceTierIntro,
     PriceTierList,

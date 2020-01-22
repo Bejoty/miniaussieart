@@ -1,60 +1,46 @@
 <template>
-  <v-container fluid class="intro fill-height text-center">
-    <v-row class="mx-auto" justify="center">
-      <v-col
-        col="12"
-        md="8"
-        lg="6"
-      >
-        <h1
-          :class="{'logo-resize': $vuetify.breakpoint.smAndUp}"
-          class="my-4 font-weight-bold text-uppercase logo color-logo"
-        >
-          <span>Mi<span class="logo-shrink-letter">n</span>iAussie</span><span class="color-logo-red">A</span><span class="color-logo-green">r</span><span class="color-logo-blue">t</span>
-        </h1>
-        <div class="sub-head">
-          Digital Artist <br> Character Designer <br> Concept Artist <br> Animator
-        </div>
-      </v-col>
-    </v-row>
+  <v-img src="/good-morn_orig.jpg" min-height="100vh">
+    <div class="intro py-6">
+      <MAALogo />
 
-    <v-row class="mx-auto" justify="center">
-      <v-col
-        cols="12"
-        md="8"
-      >
-        <v-row>
-          <v-col
-            v-for="(test, i) in links"
-            :key="i"
-            xs="4"
-            sm="12"
+      <div class="sub-head">
+        Digital Artist <br> Character Designer <br> Concept Artist <br> Animator
+      </div>
+
+      <div class="social-links">
+        <div
+          v-for="(test, i) in links"
+          :key="i"
+        >
+          <v-btn
+            :href="test.url"
+            :icon="$vuetify.breakpoint.xsOnly"
+            class="my-2"
+            target="_blank"
+            dark
+            x-large
+            style="background-color: rgba(0, 0, 0, 0.5);"
           >
-            <v-btn
-              :href="test.url"
-              :icon="$vuetify.breakpoint.xsOnly"
-              target="_blank"
-              dark
-              x-large
-              style="background-color: rgba(0, 0, 0, 0.5);"
-            >
-              <v-icon>
-                {{ test.icon }}
-              </v-icon>
-              <span class="ml-3 d-none d-sm-flex">{{ test.text }}</span>
-            </v-btn>
-          </v-col>
-        </v-row>
-      </v-col>
-    </v-row>
-  </v-container>
+            <v-icon>
+              {{ test.icon }}
+            </v-icon>
+            <span class="ml-3 d-none d-sm-flex">{{ test.text }}</span>
+          </v-btn>
+        </div>
+      </div>
+    </div>
+  </v-img>
 </template>
 
 <script>
 import links from '../data/links';
+import MAALogo from './MAALogo';
 
 export default {
   name: 'PriceTierIntro',
+  components: {
+    MAALogo,
+  },
   data: () => ({
     links,
     socialVisible: true,
@@ -63,34 +49,12 @@ export default {
 </script>
 
 <style scoped>
-  .logo {
-    font-size: 2.4rem;
-    font-family: 'Architects Daughter', sans-serif;
-    text-shadow: 0 0 3px black;
-  }
-
-  .logo-resize {
-    font-size: 3.4rem;
-  }
-
-  .logo-shrink-letter {
-    font-size: 0.85em;
-  }
-
-  .color-logo {
-    color: #50c0cd;
-  }
-
-  .color-logo-red {
-    color: #ef5454;
-  }
-
-  .color-logo-blue {
-    color: #4fb7e7;
-  }
-
-  .color-logo-green {
-    color: #9bd33a;
+  .intro {
+    display: grid;
+    height: 100%;
+    align-content: space-around;
+    text-align: center;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.1), rgba(34, 34, 34, 0.1) 80%, rgba(34, 34, 34, 1) 95%);
   }
 
   .sub-head {
@@ -99,7 +63,15 @@ export default {
     text-shadow: 0 0 2px black;
   }
 
-  .intro {
-    background-image: linear-gradient(rgba(34, 34, 34, 0.1), rgba(34, 34, 34, 0.1) 80%, rgba(34, 34, 34, 1));
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  @media(min-width: 600px) {
+    .social-links {
+      flex-direction: column;
+    }
   }
 </style>
