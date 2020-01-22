@@ -1,10 +1,12 @@
 <template>
   <v-img src="/good-morn_orig.jpg" min-height="100vh">
     <div class="intro py-6">
-      <MAALogo />
+      <div>
+        <MAALogo />
 
-      <div class="sub-head">
-        Digital Artist <br> Character Designer <br> Concept Artist <br> Animator
+        <div class="sub-head">
+          Digital Artist <br> Character Designer <br> Concept Artist <br> Animator
+        </div>
       </div>
 
       <div class="social-links">
@@ -15,7 +17,7 @@
           <v-btn
             :href="test.url"
             :icon="$vuetify.breakpoint.xsOnly"
-            class="my-2"
+            class="my-3"
             target="_blank"
             dark
             x-large
@@ -54,7 +56,7 @@ export default {
     height: 100%;
     align-content: space-around;
     text-align: center;
-    background-image: linear-gradient(rgba(34, 34, 34, 0.1), rgba(34, 34, 34, 0.1) 80%, rgba(34, 34, 34, 1) 95%);
+    background-image: linear-gradient(rgba(34, 34, 34, 0.1), rgba(34, 34, 34, 0.1) 80%, rgba(34, 34, 34, 1));
   }
 
   .sub-head {
