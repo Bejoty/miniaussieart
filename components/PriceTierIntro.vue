@@ -76,4 +76,8 @@ export default {
       flex-direction: column;
     }
   }
+
+  svg {
+    max-height: 24px;
+  }
 </style>
