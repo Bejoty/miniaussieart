@@ -103,12 +103,14 @@ import tierList from '../data/tier-list.json';
 
 export default {
   name: 'PriceTierList',
-  data: () => ({
-    count: 0,
-    dialog: false,
-    dialogSrc: '',
-    tierList,
-  }),
+  data() {
+    return {
+      count: 0,
+      dialog: false,
+      dialogSrc: '',
+      tierList,
+    };
+  },
   methods: {
     openDialog(example) {
       this.dialogSrc = example.src;
