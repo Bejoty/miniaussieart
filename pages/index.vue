@@ -14,5 +14,10 @@ export default {
     PriceTierIntro,
     PriceTierList,
   },
+  head() {
+    return {
+      title: 'Commission Prices',
+    };
+  },
 };
 </script>
