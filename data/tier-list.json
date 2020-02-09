@@ -1,7 +1,7 @@
 [
   {
     "category": "Chibi Headshot",
-    "price": "$25 each\n",
+    "price": "$30 each\n",
     "description": null,
     "examples": [
       {
@@ -42,8 +42,8 @@
   },
   {
     "category": "Chibi",
-    "price": "Simple Chibi ● $35\nChibi w/ Background ● $45\n",
-    "description": "( +$25 per additional character )\n",
+    "price": "Simple Chibi ● $40\n",
+    "description": "( +$25 per additional character )\nAdd background starting at +$10\n",
     "examples": [
       {
         "src": "https://art.miniaussie.ink/commissions/kyu.png"
