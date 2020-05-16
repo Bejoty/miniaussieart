@@ -43,7 +43,7 @@
   {
     "category": "Chibi",
     "price": "Simple Chibi ● $40\n",
-    "description": "( +$25 per additional character )\nAdd background starting at +$10\n",
+    "description": "( +$30 per additional character )\nAdd background starting at +$10\n",
     "examples": [
       {
         "src": "https://art.miniaussie.ink/commissions/kyu.png"
@@ -101,7 +101,7 @@
   },
   {
     "category": "Pet Commission",
-    "price": "Chibi ● $35 each\n\nHead shot / Portrait\nSketch ● $30\nColored Sketch ● $40\nFlat Color ● $50\nShaded / Rendered ● $60\n\nFull Body\nSketch ● $30\nColored Sketch ● $45\nFlat Color ● $65\nShaded / Rendered ● $85\n",
+    "price": "Chibi ● $40 each\n\nHead shot / Portrait\nSketch ● $35\nColored Sketch ● $45\nFlat Color ● $55\nShaded / Rendered ● $75\n\nFull Body\nSketch ● $40\nColored Sketch ● $50\nFlat Color ● $70\nShaded / Rendered ● $95\n",
     "description": "( additional pet prices vary depending on species )\nBackground scenes starting at $15\n",
     "examples": [
       {
@@ -126,7 +126,7 @@
   },
   {
     "category": "Derp Doodle",
-    "price": "$20 each.\n",
+    "price": "$25 each.\n",
     "description": "Sloppy perfection\n",
     "examples": [
       {
@@ -151,7 +151,7 @@
   },
   {
     "category": "Head shot / Portrait / Bust",
-    "price": "Sketch ● $25\nColored Sketch ● $40\nFlat Color ● $50\nShaded / Rendered ● $65\n",
+    "price": "Sketch ● $35\nColored Sketch ● $45\nFlat Color ● $60\nShaded / Rendered ● $75\n",
     "description": "( detailed backgrounds start at $8+ )\n+$10 for Anthro/Bust\n",
     "examples": [
       {
@@ -185,7 +185,7 @@
   },
   {
     "category": "Sketch (Full Body)",
-    "price": "Rough Sketch ● $25\nRough Colored Sketch ● $35\nClean Sketch ● $35\nClean Colored Sketch ● $45\n",
+    "price": "Rough Sketch ● $30\nRough Colored Sketch ● $40\nClean Sketch ● $40\nClean Colored Sketch ● $50\n",
     "description": "+$10(ea) for Anthro\n",
     "examples": [
       {
@@ -219,7 +219,7 @@
   },
   {
     "category": "Flat Color (Full Body)",
-    "price": "Flat color ● $65\nFlat color w/ BG scene ● $95\n",
+    "price": "Flat color ● $75\nFlat color w/ BG scene ● $95\n",
     "description": "( +$45 per additional character )\n+$15 for Anthro\n",
     "examples": [
       {
@@ -253,7 +253,7 @@
   },
   {
     "category": "Shaded / Fully Rendered",
-    "price": "Feral ● $100+ (+$50 per additional character)\nAnthro ● $125+ (+$50 per additional character)\n",
+    "price": "Feral ● $110+ (+$50 per additional character)\nAnthro ● $125+ (+$50 per additional character)\n",
     "description": "( Includes BG Scene )\n",
     "examples": [
       {
